@@ -1,8 +1,6 @@
 import RPi.GPIO as GPIO
 from time import sleep
-from gpiozero import Buzzer
-from gpiozero import LED
-from gpiozero import MotionSensor
+from gpiozero import Buzzer, LED, MotionSensor
 from tkinter import *
 import PIL
 from PIL import Image, ImageTk
