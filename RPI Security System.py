@@ -145,7 +145,7 @@ statusMessage.set('STATUS: OFFLINE')
 start = Button(app, text="ONLINE",fg="GREEN", command=lambda:[triggerOn(),message()])                                                           
 stop = Button(app, text="OFFLINE",fg="RED", command=lambda:[triggerOff(),message()])
 status = Label(root, textvariable = statusMessage)
-logo = ImageTk.PhotoImage(Image.open("/home/pi/Desktop/images.png"))
+logo = ImageTk.PhotoImage(Image.open("/home/pi/RPI Security System/Files/Logo/images.png"))
 logoW = Label(root, image = logo)
 #photoW.pack(side="bottom", fill="both", expand="yes")
 
